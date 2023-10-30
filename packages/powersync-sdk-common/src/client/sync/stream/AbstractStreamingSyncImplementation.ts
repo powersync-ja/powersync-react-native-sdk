@@ -162,6 +162,7 @@ export abstract class AbstractStreamingSyncImplementation extends BaseObserver<S
           },
           signal
         )) {
+          console.log('line', line);
           if (isStreamingSyncCheckpoint(line)) {
             targetCheckpoint = line.checkpoint;
             const bucketsToDelete = new Set<string>(bucketSet);
@@ -272,11 +273,11 @@ export abstract class AbstractStreamingSyncImplementation extends BaseObserver<S
     const body = await this.options.remote.postStreaming('/sync/stream', req, {}, signal);
     const stream = ndjsonStream(body);
     const reader = stream.getReader();
-
     try {
       while (true) {
         // Read from the stream
         const { done, value } = await reader.read();
+        console.log('[value]', JSON.stringify(value));
         // Exit if we're done
         if (done) return;
         // Else yield the chunk

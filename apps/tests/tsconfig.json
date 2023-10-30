@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/expo/tsconfig.base",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "paths": {
+      "react-native-quick-sqlite": ["../src/index"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}
