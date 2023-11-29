@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-common-sdk/modules" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.0.0">
+<title data-rh="true">@journeyapps/powersync-sdk-common | React Native SDK Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://powersync-ja.github.io/powersync-react-native-sdk/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://powersync-ja.github.io/powersync-react-native-sdk/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://powersync-ja.github.io/powersync-react-native-sdk/common-sdk/modules"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="@journeyapps/powersync-sdk-common | React Native SDK Docs"><meta data-rh="true" name="description" content="Enumerations"><meta data-rh="true" property="og:description" content="Enumerations"><link data-rh="true" rel="icon" href="/powersync-react-native-sdk/img/powersync-favicon.png"><link data-rh="true" rel="canonical" href="https://powersync-ja.github.io/powersync-react-native-sdk/common-sdk/modules"><link data-rh="true" rel="alternate" href="https://powersync-ja.github.io/powersync-react-native-sdk/common-sdk/modules" hreflang="en"><link data-rh="true" rel="alternate" href="https://powersync-ja.github.io/powersync-react-native-sdk/common-sdk/modules" hreflang="x-default"><link rel="stylesheet" href="/powersync-react-native-sdk/assets/css/styles.0ebfbf43.css">
+<script src="/powersync-react-native-sdk/assets/js/runtime~main.baf27607.js" defer="defer"></script>
+<script src="/powersync-react-native-sdk/assets/js/main.16be7f72.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_oPtH" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/powersync-react-native-sdk/"><div class="navbar__logo"><img src="/powersync-react-native-sdk/img/powersync-logo.png" alt="PowerSync Logo" class="themedComponent_siVc themedComponent--light_hHel"><img src="/powersync-react-native-sdk/img/powersync-logo.png" alt="PowerSync Logo" class="themedComponent_siVc themedComponent--dark_yETr"></div><b class="navbar__title text--truncate">PowerSync React Native SDK</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/powersync-react-native-sdk/react-native-sdk">Docs</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_ki11 colorModeToggle_Hewu"><button class="clean-btn toggleButton_MMFG toggleButtonDisabled_Uw7m" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_lgto"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_U96C"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_bzqh"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_MB5r"><div class="docsWrapper__sE8"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_iEvu" type="button"></button><div class="docRoot_DfVB"><aside class="theme-doc-sidebar-container docSidebarContainer_c7NB"><div class="sidebarViewport_KYo0"><div class="sidebar_CUen"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_jmj1"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--active">Libraries</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/powersync-react-native-sdk/react-native-sdk">React Native SDK</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/powersync-react-native-sdk/react-sdk">React SDK</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" aria-expanded="false" tabindex="0" href="/powersync-react-native-sdk/attachments-sdk">Attachments SDK</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" aria-expanded="true" tabindex="0" href="/powersync-react-native-sdk/common-sdk">Common SDK</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/powersync-react-native-sdk/common-sdk">Readme</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/powersync-react-native-sdk/common-sdk/modules">Exports</a></li></ul></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_a9sJ"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_Qr34"><div class="docItemContainer_tjFy"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_T5ub" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/powersync-react-native-sdk/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_sfvy"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Libraries</span><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Common SDK</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Exports</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_wXna theme-doc-toc-mobile tocMobile_Ojys"><button type="button" class="clean-btn tocCollapsibleButton_iI2p">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>@journeyapps/powersync-sdk-common</h1></header><h2 class="anchor anchorWithStickyNavbar_JmGV" id="enumerations">Enumerations<a href="#enumerations" class="hash-link" aria-label="Direct link to Enumerations" title="Direct link to Enumerations">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="columntype">ColumnType<a href="#columntype" class="hash-link" aria-label="Direct link to ColumnType" title="Direct link to ColumnType">​</a></h3>
+<p>• <strong>ColumnType</strong>: Enum ColumnType</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in">Defined in<a href="#defined-in" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/Column.ts#L2" target="_blank" rel="noopener noreferrer">db/Column.ts:2</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="locktype">LockType<a href="#locktype" class="hash-link" aria-label="Direct link to LockType" title="Direct link to LockType">​</a></h3>
+<p>• <strong>LockType</strong>: Enum LockType</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-1">Defined in<a href="#defined-in-1" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractStreamingSyncImplementation.ts#L21" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractStreamingSyncImplementation.ts:21</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="optypeenum">OpTypeEnum<a href="#optypeenum" class="hash-link" aria-label="Direct link to OpTypeEnum" title="Direct link to OpTypeEnum">​</a></h3>
+<p>• <strong>OpTypeEnum</strong>: Enum OpTypeEnum</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-2">Defined in<a href="#defined-in-2" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/OpType.ts#L1" target="_blank" rel="noopener noreferrer">client/sync/bucket/OpType.ts:1</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="rowupdatetype">RowUpdateType<a href="#rowupdatetype" class="hash-link" aria-label="Direct link to RowUpdateType" title="Direct link to RowUpdateType">​</a></h3>
+<p>• <strong>RowUpdateType</strong>: Enum RowUpdateType</p>
+<p>Update table operation numbers from SQLite</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-3">Defined in<a href="#defined-in-3" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L52" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:52</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="updatetype">UpdateType<a href="#updatetype" class="hash-link" aria-label="Direct link to UpdateType" title="Direct link to UpdateType">​</a></h3>
+<p>• <strong>UpdateType</strong>: Enum UpdateType</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-4">Defined in<a href="#defined-in-4" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudEntry.ts#L10" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudEntry.ts:10</a></p>
+<h2 class="anchor anchorWithStickyNavbar_JmGV" id="classes">Classes<a href="#classes" class="hash-link" aria-label="Direct link to Classes" title="Direct link to Classes">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="abstractpowersyncdatabase">AbstractPowerSyncDatabase<a href="#abstractpowersyncdatabase" class="hash-link" aria-label="Direct link to AbstractPowerSyncDatabase" title="Direct link to AbstractPowerSyncDatabase">​</a></h3>
+<p>• <code>Abstract</code> <strong>AbstractPowerSyncDatabase</strong>: Class AbstractPowerSyncDatabase</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-5">Defined in<a href="#defined-in-5" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L58" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:58</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="abstractpowersyncdatabaseopenfactory">AbstractPowerSyncDatabaseOpenFactory<a href="#abstractpowersyncdatabaseopenfactory" class="hash-link" aria-label="Direct link to AbstractPowerSyncDatabaseOpenFactory" title="Direct link to AbstractPowerSyncDatabaseOpenFactory">​</a></h3>
+<p>• <code>Abstract</code> <strong>AbstractPowerSyncDatabaseOpenFactory</strong>: Class AbstractPowerSyncDatabaseOpenFactory</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-6">Defined in<a href="#defined-in-6" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncOpenFactory.ts#L17" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncOpenFactory.ts:17</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="abstractremote">AbstractRemote<a href="#abstractremote" class="hash-link" aria-label="Direct link to AbstractRemote" title="Direct link to AbstractRemote">​</a></h3>
+<p>• <code>Abstract</code> <strong>AbstractRemote</strong>: Class AbstractRemote</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-7">Defined in<a href="#defined-in-7" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractRemote.ts#L13" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractRemote.ts:13</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="abstractstreamingsyncimplementation">AbstractStreamingSyncImplementation<a href="#abstractstreamingsyncimplementation" class="hash-link" aria-label="Direct link to AbstractStreamingSyncImplementation" title="Direct link to AbstractStreamingSyncImplementation">​</a></h3>
+<p>• <code>Abstract</code> <strong>AbstractStreamingSyncImplementation</strong>: Class AbstractStreamingSyncImplementation</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-8">Defined in<a href="#defined-in-8" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractStreamingSyncImplementation.ts#L51" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractStreamingSyncImplementation.ts:51</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="baseobserver">BaseObserver<a href="#baseobserver" class="hash-link" aria-label="Direct link to BaseObserver" title="Direct link to BaseObserver">​</a></h3>
+<p>• <strong>BaseObserver</strong>: Class BaseObserver&lt;T&gt;</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-parameters">Type parameters<a href="#type-parameters" class="hash-link" aria-label="Direct link to Type parameters" title="Direct link to Type parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>T</code></td><td style="text-align:left">extends BaseListener = BaseListener</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-9">Defined in<a href="#defined-in-9" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/utils/BaseObserver.ts#L11" target="_blank" rel="noopener noreferrer">utils/BaseObserver.ts:11</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="column">Column<a href="#column" class="hash-link" aria-label="Direct link to Column" title="Direct link to Column">​</a></h3>
+<p>• <strong>Column</strong>: Class Column</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-10">Defined in<a href="#defined-in-10" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/Column.ts#L13" target="_blank" rel="noopener noreferrer">db/Column.ts:13</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudbatch">CrudBatch<a href="#crudbatch" class="hash-link" aria-label="Direct link to CrudBatch" title="Direct link to CrudBatch">​</a></h3>
+<p>• <strong>CrudBatch</strong>: Class CrudBatch</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-11">Defined in<a href="#defined-in-11" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudBatch.ts#L3" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudBatch.ts:3</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudentry">CrudEntry<a href="#crudentry" class="hash-link" aria-label="Direct link to CrudEntry" title="Direct link to CrudEntry">​</a></h3>
+<p>• <strong>CrudEntry</strong>: Class CrudEntry</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-12">Defined in<a href="#defined-in-12" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudEntry.ts#L41" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudEntry.ts:41</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudtransaction">CrudTransaction<a href="#crudtransaction" class="hash-link" aria-label="Direct link to CrudTransaction" title="Direct link to CrudTransaction">​</a></h3>
+<p>• <strong>CrudTransaction</strong>: Class CrudTransaction</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-13">Defined in<a href="#defined-in-13" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudTransaction.ts#L4" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudTransaction.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="index">Index<a href="#index" class="hash-link" aria-label="Direct link to Index" title="Direct link to Index">​</a></h3>
+<p>• <strong>Index</strong>: Class Index</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-14">Defined in<a href="#defined-in-14" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Index.ts#L13" target="_blank" rel="noopener noreferrer">db/schema/Index.ts:13</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="indexedcolumn">IndexedColumn<a href="#indexedcolumn" class="hash-link" aria-label="Direct link to IndexedColumn" title="Direct link to IndexedColumn">​</a></h3>
+<p>• <strong>IndexedColumn</strong>: Class IndexedColumn</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-15">Defined in<a href="#defined-in-15" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/IndexedColumn.ts#L13" target="_blank" rel="noopener noreferrer">db/schema/IndexedColumn.ts:13</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="optype">OpType<a href="#optype" class="hash-link" aria-label="Direct link to OpType" title="Direct link to OpType">​</a></h3>
+<p>• <strong>OpType</strong>: Class OpType</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-16">Defined in<a href="#defined-in-16" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/OpType.ts#L10" target="_blank" rel="noopener noreferrer">client/sync/bucket/OpType.ts:10</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="schema">Schema<a href="#schema" class="hash-link" aria-label="Direct link to Schema" title="Direct link to Schema">​</a></h3>
+<p>• <strong>Schema</strong>: Class Schema</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-17">Defined in<a href="#defined-in-17" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Schema.ts#L3" target="_blank" rel="noopener noreferrer">db/schema/Schema.ts:3</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="sqlitebucketstorage">SqliteBucketStorage<a href="#sqlitebucketstorage" class="hash-link" aria-label="Direct link to SqliteBucketStorage" title="Direct link to SqliteBucketStorage">​</a></h3>
+<p>• <strong>SqliteBucketStorage</strong>: Class SqliteBucketStorage</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-18">Defined in<a href="#defined-in-18" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/SqliteBucketStorage.ts#L13" target="_blank" rel="noopener noreferrer">client/sync/bucket/SqliteBucketStorage.ts:13</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncdatabatch">SyncDataBatch<a href="#syncdatabatch" class="hash-link" aria-label="Direct link to SyncDataBatch" title="Direct link to SyncDataBatch">​</a></h3>
+<p>• <strong>SyncDataBatch</strong>: Class SyncDataBatch</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-19">Defined in<a href="#defined-in-19" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/SyncDataBatch.ts#L5" target="_blank" rel="noopener noreferrer">client/sync/bucket/SyncDataBatch.ts:5</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncdatabucket">SyncDataBucket<a href="#syncdatabucket" class="hash-link" aria-label="Direct link to SyncDataBucket" title="Direct link to SyncDataBucket">​</a></h3>
+<p>• <strong>SyncDataBucket</strong>: Class SyncDataBucket</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-20">Defined in<a href="#defined-in-20" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/SyncDataBucket.ts#L14" target="_blank" rel="noopener noreferrer">client/sync/bucket/SyncDataBucket.ts:14</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncstatus">SyncStatus<a href="#syncstatus" class="hash-link" aria-label="Direct link to SyncStatus" title="Direct link to SyncStatus">​</a></h3>
+<p>• <strong>SyncStatus</strong>: Class SyncStatus</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-21">Defined in<a href="#defined-in-21" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/crud/SyncStatus.ts#L1" target="_blank" rel="noopener noreferrer">db/crud/SyncStatus.ts:1</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="table">Table<a href="#table" class="hash-link" aria-label="Direct link to Table" title="Direct link to Table">​</a></h3>
+<p>• <strong>Table</strong>: Class Table</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-22">Defined in<a href="#defined-in-22" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Table.ts#L18" target="_blank" rel="noopener noreferrer">db/schema/Table.ts:18</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="uploadqueuestats">UploadQueueStats<a href="#uploadqueuestats" class="hash-link" aria-label="Direct link to UploadQueueStats" title="Direct link to UploadQueueStats">​</a></h3>
+<p>• <strong>UploadQueueStats</strong>: Class UploadQueueStats</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-23">Defined in<a href="#defined-in-23" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/crud/UploadQueueStatus.ts#L1" target="_blank" rel="noopener noreferrer">db/crud/UploadQueueStatus.ts:1</a></p>
+<h2 class="anchor anchorWithStickyNavbar_JmGV" id="interfaces">Interfaces<a href="#interfaces" class="hash-link" aria-label="Direct link to Interfaces" title="Direct link to Interfaces">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="abstractstreamingsyncimplementationoptions">AbstractStreamingSyncImplementationOptions<a href="#abstractstreamingsyncimplementationoptions" class="hash-link" aria-label="Direct link to AbstractStreamingSyncImplementationOptions" title="Direct link to AbstractStreamingSyncImplementationOptions">​</a></h3>
+<p>• <strong>AbstractStreamingSyncImplementationOptions</strong>: Interface AbstractStreamingSyncImplementationOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-24">Defined in<a href="#defined-in-24" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractStreamingSyncImplementation.ts#L34" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractStreamingSyncImplementation.ts:34</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="baseobserverinterface">BaseObserverInterface<a href="#baseobserverinterface" class="hash-link" aria-label="Direct link to BaseObserverInterface" title="Direct link to BaseObserverInterface">​</a></h3>
+<p>• <strong>BaseObserverInterface</strong>: Interface BaseObserverInterface&lt;T&gt;</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-parameters-1">Type parameters<a href="#type-parameters-1" class="hash-link" aria-label="Direct link to Type parameters" title="Direct link to Type parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>T</code></td><td style="text-align:left">extends BaseListener</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-25">Defined in<a href="#defined-in-25" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/utils/BaseObserver.ts#L3" target="_blank" rel="noopener noreferrer">utils/BaseObserver.ts:3</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="bucketchecksum">BucketChecksum<a href="#bucketchecksum" class="hash-link" aria-label="Direct link to BucketChecksum" title="Direct link to BucketChecksum">​</a></h3>
+<p>• <strong>BucketChecksum</strong>: Interface BucketChecksum</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-26">Defined in<a href="#defined-in-26" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/BucketStorageAdapter.ts#L27" target="_blank" rel="noopener noreferrer">client/sync/bucket/BucketStorageAdapter.ts:27</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="bucketrequest">BucketRequest<a href="#bucketrequest" class="hash-link" aria-label="Direct link to BucketRequest" title="Direct link to BucketRequest">​</a></h3>
+<p>• <strong>BucketRequest</strong>: Interface BucketRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-27">Defined in<a href="#defined-in-27" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L115" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:115</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="bucketstate">BucketState<a href="#bucketstate" class="hash-link" aria-label="Direct link to BucketState" title="Direct link to BucketState">​</a></h3>
+<p>• <strong>BucketState</strong>: Interface BucketState</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-28">Defined in<a href="#defined-in-28" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/BucketStorageAdapter.ts#L11" target="_blank" rel="noopener noreferrer">client/sync/bucket/BucketStorageAdapter.ts:11</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="bucketstorageadapter">BucketStorageAdapter<a href="#bucketstorageadapter" class="hash-link" aria-label="Direct link to BucketStorageAdapter" title="Direct link to BucketStorageAdapter">​</a></h3>
+<p>• <strong>BucketStorageAdapter</strong>: Interface BucketStorageAdapter</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-29">Defined in<a href="#defined-in-29" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/BucketStorageAdapter.ts#L40" target="_blank" rel="noopener noreferrer">client/sync/bucket/BucketStorageAdapter.ts:40</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="checkpoint">Checkpoint<a href="#checkpoint" class="hash-link" aria-label="Direct link to Checkpoint" title="Direct link to Checkpoint">​</a></h3>
+<p>• <strong>Checkpoint</strong>: Interface Checkpoint</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-30">Defined in<a href="#defined-in-30" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/BucketStorageAdapter.ts#L5" target="_blank" rel="noopener noreferrer">client/sync/bucket/BucketStorageAdapter.ts:5</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="checksumcache">ChecksumCache<a href="#checksumcache" class="hash-link" aria-label="Direct link to ChecksumCache" title="Direct link to ChecksumCache">​</a></h3>
+<p>• <strong>ChecksumCache</strong>: Interface ChecksumCache</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-31">Defined in<a href="#defined-in-31" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/BucketStorageAdapter.ts#L16" target="_blank" rel="noopener noreferrer">client/sync/bucket/BucketStorageAdapter.ts:16</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="columnoptions">ColumnOptions<a href="#columnoptions" class="hash-link" aria-label="Direct link to ColumnOptions" title="Direct link to ColumnOptions">​</a></h3>
+<p>• <strong>ColumnOptions</strong>: Interface ColumnOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-32">Defined in<a href="#defined-in-32" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/Column.ts#L8" target="_blank" rel="noopener noreferrer">db/Column.ts:8</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="continuecheckpointrequest">ContinueCheckpointRequest<a href="#continuecheckpointrequest" class="hash-link" aria-label="Direct link to ContinueCheckpointRequest" title="Direct link to ContinueCheckpointRequest">​</a></h3>
+<p>• <strong>ContinueCheckpointRequest</strong>: Interface ContinueCheckpointRequest</p>
+<p>For sync2.json</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-33">Defined in<a href="#defined-in-33" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L8" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:8</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudrequest">CrudRequest<a href="#crudrequest" class="hash-link" aria-label="Direct link to CrudRequest" title="Direct link to CrudRequest">​</a></h3>
+<p>• <strong>CrudRequest</strong>: Interface CrudRequest</p>
+<p>For crud.json</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-34">Defined in<a href="#defined-in-34" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L158" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:158</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudresponse">CrudResponse<a href="#crudresponse" class="hash-link" aria-label="Direct link to CrudResponse" title="Direct link to CrudResponse">​</a></h3>
+<p>• <strong>CrudResponse</strong>: Interface CrudResponse</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-35">Defined in<a href="#defined-in-35" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L162" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:162</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="dbadapter">DBAdapter<a href="#dbadapter" class="hash-link" aria-label="Direct link to DBAdapter" title="Direct link to DBAdapter">​</a></h3>
+<p>• <strong>DBAdapter</strong>: Interface DBAdapter</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-36">Defined in<a href="#defined-in-36" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L71" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:71</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="dbadapterlistener">DBAdapterListener<a href="#dbadapterlistener" class="hash-link" aria-label="Direct link to DBAdapterListener" title="Direct link to DBAdapterListener">​</a></h3>
+<p>• <strong>DBAdapterListener</strong>: Interface DBAdapterListener</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-37">Defined in<a href="#defined-in-37" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L63" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:63</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="dbgetutils">DBGetUtils<a href="#dbgetutils" class="hash-link" aria-label="Direct link to DBGetUtils" title="Direct link to DBGetUtils">​</a></h3>
+<p>• <strong>DBGetUtils</strong>: Interface DBGetUtils</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-38">Defined in<a href="#defined-in-38" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L34" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:34</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="dblockoptions">DBLockOptions<a href="#dblockoptions" class="hash-link" aria-label="Direct link to DBLockOptions" title="Direct link to DBLockOptions">​</a></h3>
+<p>• <strong>DBLockOptions</strong>: Interface DBLockOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-39">Defined in<a href="#defined-in-39" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L67" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:67</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="indexcolumnoptions">IndexColumnOptions<a href="#indexcolumnoptions" class="hash-link" aria-label="Direct link to IndexColumnOptions" title="Direct link to IndexColumnOptions">​</a></h3>
+<p>• <strong>IndexColumnOptions</strong>: Interface IndexColumnOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-40">Defined in<a href="#defined-in-40" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/IndexedColumn.ts#L4" target="_blank" rel="noopener noreferrer">db/schema/IndexedColumn.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="indexoptions">IndexOptions<a href="#indexoptions" class="hash-link" aria-label="Direct link to IndexOptions" title="Direct link to IndexOptions">​</a></h3>
+<p>• <strong>IndexOptions</strong>: Interface IndexOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-41">Defined in<a href="#defined-in-41" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Index.ts#L4" target="_blank" rel="noopener noreferrer">db/schema/Index.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="lockcontext">LockContext<a href="#lockcontext" class="hash-link" aria-label="Direct link to LockContext" title="Direct link to LockContext">​</a></h3>
+<p>• <strong>LockContext</strong>: Interface LockContext</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-42">Defined in<a href="#defined-in-42" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L40" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:40</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="lockoptions">LockOptions<a href="#lockoptions" class="hash-link" aria-label="Direct link to LockOptions" title="Direct link to LockOptions">​</a></h3>
+<p>• <strong>LockOptions</strong>: Interface LockOptions&lt;T&gt;</p>
+<p>Abstract Lock to be implemented by various JS environments</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-parameters-2">Type parameters<a href="#type-parameters-2" class="hash-link" aria-label="Direct link to Type parameters" title="Direct link to Type parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th></tr></thead><tbody><tr><td style="text-align:left"><code>T</code></td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-43">Defined in<a href="#defined-in-43" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractStreamingSyncImplementation.ts#L28" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractStreamingSyncImplementation.ts:28</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="powersyncbackendconnector">PowerSyncBackendConnector<a href="#powersyncbackendconnector" class="hash-link" aria-label="Direct link to PowerSyncBackendConnector" title="Direct link to PowerSyncBackendConnector">​</a></h3>
+<p>• <strong>PowerSyncBackendConnector</strong>: Interface PowerSyncBackendConnector</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-44">Defined in<a href="#defined-in-44" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/connection/PowerSyncBackendConnector.ts#L4" target="_blank" rel="noopener noreferrer">client/connection/PowerSyncBackendConnector.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="powersynccredentials">PowerSyncCredentials<a href="#powersynccredentials" class="hash-link" aria-label="Direct link to PowerSyncCredentials" title="Direct link to PowerSyncCredentials">​</a></h3>
+<p>• <strong>PowerSyncCredentials</strong>: Interface PowerSyncCredentials</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-45">Defined in<a href="#defined-in-45" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/connection/PowerSyncCredentials.ts#L1" target="_blank" rel="noopener noreferrer">client/connection/PowerSyncCredentials.ts:1</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="powersyncdblistener">PowerSyncDBListener<a href="#powersyncdblistener" class="hash-link" aria-label="Direct link to PowerSyncDBListener" title="Direct link to PowerSyncDBListener">​</a></h3>
+<p>• <strong>PowerSyncDBListener</strong>: Interface PowerSyncDBListener</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-46">Defined in<a href="#defined-in-46" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L38" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:38</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="powersyncdatabaseoptions">PowerSyncDatabaseOptions<a href="#powersyncdatabaseoptions" class="hash-link" aria-label="Direct link to PowerSyncDatabaseOptions" title="Direct link to PowerSyncDatabaseOptions">​</a></h3>
+<p>• <strong>PowerSyncDatabaseOptions</strong>: Interface PowerSyncDatabaseOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-47">Defined in<a href="#defined-in-47" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L21" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:21</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="powersyncopenfactoryoptions">PowerSyncOpenFactoryOptions<a href="#powersyncopenfactoryoptions" class="hash-link" aria-label="Direct link to PowerSyncOpenFactoryOptions" title="Direct link to PowerSyncOpenFactoryOptions">​</a></h3>
+<p> • <strong>PowerSyncOpenFactoryOptions</strong>: Interface PowerSyncOpenFactoryOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-48">Defined in<a href="#defined-in-48" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncOpenFactory.ts#L5" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncOpenFactory.ts:5</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="queryresult">QueryResult<a href="#queryresult" class="hash-link" aria-label="Direct link to QueryResult" title="Direct link to QueryResult">​</a></h3>
+<p>• <strong>QueryResult</strong>: Interface QueryResult</p>
+<p>Object returned by SQL Query executions {
+insertId: Represent the auto-generated row id if applicable
+rowsAffected: Number of affected rows if result of a update query
+message: if status === 1, here you will find error description
+rows: if status is undefined or 0 this object will contain the query results
+}</p>
+<p>QueryResult</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-49">Defined in<a href="#defined-in-49" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L18" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:18</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="sqlwatchoptions">SQLWatchOptions<a href="#sqlwatchoptions" class="hash-link" aria-label="Direct link to SQLWatchOptions" title="Direct link to SQLWatchOptions">​</a></h3>
+<p>• <strong>SQLWatchOptions</strong>: Interface SQLWatchOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-50">Defined in<a href="#defined-in-50" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L28" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:28</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsynccheckpoint">StreamingSyncCheckpoint<a href="#streamingsynccheckpoint" class="hash-link" aria-label="Direct link to StreamingSyncCheckpoint" title="Direct link to StreamingSyncCheckpoint">​</a></h3>
+<p>• <strong>StreamingSyncCheckpoint</strong>: Interface StreamingSyncCheckpoint</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-51">Defined in<a href="#defined-in-51" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L80" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:80</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsynccheckpointcomplete">StreamingSyncCheckpointComplete<a href="#streamingsynccheckpointcomplete" class="hash-link" aria-label="Direct link to StreamingSyncCheckpointComplete" title="Direct link to StreamingSyncCheckpointComplete">​</a></h3>
+<p>• <strong>StreamingSyncCheckpointComplete</strong>: Interface StreamingSyncCheckpointComplete</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-52">Defined in<a href="#defined-in-52" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L97" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:97</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsynccheckpointdiff">StreamingSyncCheckpointDiff<a href="#streamingsynccheckpointdiff" class="hash-link" aria-label="Direct link to StreamingSyncCheckpointDiff" title="Direct link to StreamingSyncCheckpointDiff">​</a></h3>
+<p>• <strong>StreamingSyncCheckpointDiff</strong>: Interface StreamingSyncCheckpointDiff</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-53">Defined in<a href="#defined-in-53" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L84" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:84</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsyncdatajson">StreamingSyncDataJSON<a href="#streamingsyncdatajson" class="hash-link" aria-label="Direct link to StreamingSyncDataJSON" title="Direct link to StreamingSyncDataJSON">​</a></h3>
+<p>• <strong>StreamingSyncDataJSON</strong>: Interface StreamingSyncDataJSON</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-54">Defined in<a href="#defined-in-54" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L93" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:93</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsyncimplementationlistener">StreamingSyncImplementationListener<a href="#streamingsyncimplementationlistener" class="hash-link" aria-label="Direct link to StreamingSyncImplementationListener" title="Direct link to StreamingSyncImplementationListener">​</a></h3>
+<p>• <strong>StreamingSyncImplementationListener</strong>: Interface StreamingSyncImplementationListener</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-55">Defined in<a href="#defined-in-55" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractStreamingSyncImplementation.ts#L42" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractStreamingSyncImplementation.ts:42</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsynckeepalive">StreamingSyncKeepalive<a href="#streamingsynckeepalive" class="hash-link" aria-label="Direct link to StreamingSyncKeepalive" title="Direct link to StreamingSyncKeepalive">​</a></h3>
+<p>• <strong>StreamingSyncKeepalive</strong>: Interface StreamingSyncKeepalive</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-56">Defined in<a href="#defined-in-56" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L103" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:103</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsyncrequest">StreamingSyncRequest<a href="#streamingsyncrequest" class="hash-link" aria-label="Direct link to StreamingSyncRequest" title="Direct link to StreamingSyncRequest">​</a></h3>
+<p>• <strong>StreamingSyncRequest</strong>: Interface StreamingSyncRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-57">Defined in<a href="#defined-in-57" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L58" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:58</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="synclocaldatabaseresult">SyncLocalDatabaseResult<a href="#synclocaldatabaseresult" class="hash-link" aria-label="Direct link to SyncLocalDatabaseResult" title="Direct link to SyncLocalDatabaseResult">​</a></h3>
+<p>• <strong>SyncLocalDatabaseResult</strong>: Interface SyncLocalDatabaseResult</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-58">Defined in<a href="#defined-in-58" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/BucketStorageAdapter.ts#L21" target="_blank" rel="noopener noreferrer">client/sync/bucket/BucketStorageAdapter.ts:21</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncnewcheckpointrequest">SyncNewCheckpointRequest<a href="#syncnewcheckpointrequest" class="hash-link" aria-label="Direct link to SyncNewCheckpointRequest" title="Direct link to SyncNewCheckpointRequest">​</a></h3>
+<p>• <strong>SyncNewCheckpointRequest</strong>: Interface SyncNewCheckpointRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-59">Defined in<a href="#defined-in-59" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L19" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:19</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncresponse">SyncResponse<a href="#syncresponse" class="hash-link" aria-label="Direct link to SyncResponse" title="Direct link to SyncResponse">​</a></h3>
+<p>• <strong>SyncResponse</strong>: Interface SyncResponse</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-60">Defined in<a href="#defined-in-60" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L42" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:42</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="tableoptions">TableOptions<a href="#tableoptions" class="hash-link" aria-label="Direct link to TableOptions" title="Direct link to TableOptions">​</a></h3>
+<p>• <strong>TableOptions</strong>: Interface TableOptions</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-61">Defined in<a href="#defined-in-61" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Table.ts#L4" target="_blank" rel="noopener noreferrer">db/schema/Table.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="transaction">Transaction<a href="#transaction" class="hash-link" aria-label="Direct link to Transaction" title="Direct link to Transaction">​</a></h3>
+<p>• <strong>Transaction</strong>: Interface Transaction</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-62">Defined in<a href="#defined-in-62" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L44" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:44</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="updatenotification">UpdateNotification<a href="#updatenotification" class="hash-link" aria-label="Direct link to UpdateNotification" title="Direct link to UpdateNotification">​</a></h3>
+<p>• <strong>UpdateNotification</strong>: Interface UpdateNotification</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-63">Defined in<a href="#defined-in-63" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/DBAdapter.ts#L57" target="_blank" rel="noopener noreferrer">db/DBAdapter.ts:57</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="watchonchangeevent">WatchOnChangeEvent<a href="#watchonchangeevent" class="hash-link" aria-label="Direct link to WatchOnChangeEvent" title="Direct link to WatchOnChangeEvent">​</a></h3>
+<p>• <strong>WatchOnChangeEvent</strong>: Interface WatchOnChangeEvent</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-64">Defined in<a href="#defined-in-64" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L34" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:34</a></p>
+<h2 class="anchor anchorWithStickyNavbar_JmGV" id="type-aliases">Type Aliases<a href="#type-aliases" class="hash-link" aria-label="Direct link to Type Aliases" title="Direct link to Type Aliases">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="baselistener">BaseListener<a href="#baselistener" class="hash-link" aria-label="Direct link to BaseListener" title="Direct link to BaseListener">​</a></h3>
+<p>Ƭ <strong>BaseListener</strong>: Object</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="index-signature">Index signature<a href="#index-signature" class="hash-link" aria-label="Direct link to Index signature" title="Direct link to Index signature">​</a></h4>
+<p>▪ [key: string]: Function</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-65">Defined in<a href="#defined-in-65" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/utils/BaseObserver.ts#L7" target="_blank" rel="noopener noreferrer">utils/BaseObserver.ts:7</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudentrydatajson">CrudEntryDataJSON<a href="#crudentrydatajson" class="hash-link" aria-label="Direct link to CrudEntryDataJSON" title="Direct link to CrudEntryDataJSON">​</a></h3>
+<p>Ƭ <strong>CrudEntryDataJSON</strong>: <code>Object</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration">Type declaration<a href="#type-declaration" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>data</code></td><td style="text-align:left">Record&lt;string, any&gt;</td></tr><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">string</td></tr><tr><td style="text-align:left"><code>op</code></td><td style="text-align:left">UpdateType</td></tr><tr><td style="text-align:left"><code>type</code></td><td style="text-align:left">string</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-66">Defined in<a href="#defined-in-66" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudEntry.ts#L22" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudEntry.ts:22</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudentryjson">CrudEntryJSON<a href="#crudentryjson" class="hash-link" aria-label="Direct link to CrudEntryJSON" title="Direct link to CrudEntryJSON">​</a></h3>
+<p>Ƭ <strong>CrudEntryJSON</strong>: <code>Object</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration-1">Type declaration<a href="#type-declaration-1" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>data</code></td><td style="text-align:left">string</td></tr><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">string</td></tr><tr><td style="text-align:left"><code>tx_id?</code></td><td style="text-align:left">number</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-67">Defined in<a href="#defined-in-67" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudEntry.ts#L16" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudEntry.ts:16</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="crudentryoutputjson">CrudEntryOutputJSON<a href="#crudentryoutputjson" class="hash-link" aria-label="Direct link to CrudEntryOutputJSON" title="Direct link to CrudEntryOutputJSON">​</a></h3>
+<p>Ƭ <strong>CrudEntryOutputJSON</strong>: <code>Object</code></p>
+<p>The output JSOn seems to be a third type of JSON, not the same as the input JSON.</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration-2">Type declaration<a href="#type-declaration-2" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>data</code></td><td style="text-align:left">Record&lt;string, any&gt;</td></tr><tr><td style="text-align:left"><code>id</code></td><td style="text-align:left">string</td></tr><tr><td style="text-align:left"><code>op</code></td><td style="text-align:left">UpdateType</td></tr><tr><td style="text-align:left"><code>op_id</code></td><td style="text-align:left">number</td></tr><tr><td style="text-align:left"><code>tx_id?</code></td><td style="text-align:left">number</td></tr><tr><td style="text-align:left"><code>type</code></td><td style="text-align:left">string</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-68">Defined in<a href="#defined-in-68" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudEntry.ts#L32" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudEntry.ts:32</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="opid">OpId<a href="#opid" class="hash-link" aria-label="Direct link to OpId" title="Direct link to OpId">​</a></h3>
+<p>Ƭ <strong>OpId</strong>: string</p>
+<p>64-bit unsigned integer stored as a string in base-10.</p>
+<p>Not sortable as a string.</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-69">Defined in<a href="#defined-in-69" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/CrudEntry.ts#L8" target="_blank" rel="noopener noreferrer">client/sync/bucket/CrudEntry.ts:8</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="optypejson">OpTypeJSON<a href="#optypejson" class="hash-link" aria-label="Direct link to OpTypeJSON" title="Direct link to OpTypeJSON">​</a></h3>
+<p>Ƭ <strong>OpTypeJSON</strong>: string</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-70">Defined in<a href="#defined-in-70" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/OpType.ts#L8" target="_blank" rel="noopener noreferrer">client/sync/bucket/OpType.ts:8</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="remoteconnector">RemoteConnector<a href="#remoteconnector" class="hash-link" aria-label="Direct link to RemoteConnector" title="Direct link to RemoteConnector">​</a></h3>
+<p>Ƭ <strong>RemoteConnector</strong>: <code>Object</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration-3">Type declaration<a href="#type-declaration-3" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>fetchCredentials</code></td><td style="text-align:left">Function</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-71">Defined in<a href="#defined-in-71" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractRemote.ts#L4" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractRemote.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="streamingsyncline">StreamingSyncLine<a href="#streamingsyncline" class="hash-link" aria-label="Direct link to StreamingSyncLine" title="Direct link to StreamingSyncLine">​</a></h3>
+<p>Ƭ <strong>StreamingSyncLine</strong>: StreamingSyncDataJSON | StreamingSyncCheckpoint | StreamingSyncCheckpointDiff | StreamingSyncCheckpointComplete | StreamingSyncKeepalive</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-72">Defined in<a href="#defined-in-72" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L108" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:108</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncdatabucketjson">SyncDataBucketJSON<a href="#syncdatabucketjson" class="hash-link" aria-label="Direct link to SyncDataBucketJSON" title="Direct link to SyncDataBucketJSON">​</a></h3>
+<p>Ƭ <strong>SyncDataBucketJSON</strong>: <code>Object</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration-4">Type declaration<a href="#type-declaration-4" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>after?</code></td><td style="text-align:left">string</td></tr><tr><td style="text-align:left"><code>bucket</code></td><td style="text-align:left">string</td></tr><tr><td style="text-align:left"><code>data</code></td><td style="text-align:left">OplogEntryJSON[]</td></tr><tr><td style="text-align:left"><code>has_more?</code></td><td style="text-align:left">boolean</td></tr><tr><td style="text-align:left"><code>next_after?</code></td><td style="text-align:left">string</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-73">Defined in<a href="#defined-in-73" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/SyncDataBucket.ts#L4" target="_blank" rel="noopener noreferrer">client/sync/bucket/SyncDataBucket.ts:4</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="syncrequest">SyncRequest<a href="#syncrequest" class="hash-link" aria-label="Direct link to SyncRequest" title="Direct link to SyncRequest">​</a></h3>
+<p>Ƭ <strong>SyncRequest</strong>: ContinueCheckpointRequest | SyncNewCheckpointRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-74">Defined in<a href="#defined-in-74" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L40" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:40</a></p>
+<h2 class="anchor anchorWithStickyNavbar_JmGV" id="variables">Variables<a href="#variables" class="hash-link" aria-label="Direct link to Variables" title="Direct link to Variables">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_index_column_options">DEFAULT_INDEX_COLUMN_OPTIONS<a href="#default_index_column_options" class="hash-link" aria-label="Direct link to DEFAULT_INDEX_COLUMN_OPTIONS" title="Direct link to DEFAULT_INDEX_COLUMN_OPTIONS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_INDEX_COLUMN_OPTIONS</strong>: Partial&lt;IndexColumnOptions&gt;</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-75">Defined in<a href="#defined-in-75" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/IndexedColumn.ts#L9" target="_blank" rel="noopener noreferrer">db/schema/IndexedColumn.ts:9</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_index_options">DEFAULT_INDEX_OPTIONS<a href="#default_index_options" class="hash-link" aria-label="Direct link to DEFAULT_INDEX_OPTIONS" title="Direct link to DEFAULT_INDEX_OPTIONS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_INDEX_OPTIONS</strong>: Partial&lt;IndexOptions&gt;</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-76">Defined in<a href="#defined-in-76" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Index.ts#L9" target="_blank" rel="noopener noreferrer">db/schema/Index.ts:9</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_lock_timeout_ms">DEFAULT_LOCK_TIMEOUT_MS<a href="#default_lock_timeout_ms" class="hash-link" aria-label="Direct link to DEFAULT_LOCK_TIMEOUT_MS" title="Direct link to DEFAULT_LOCK_TIMEOUT_MS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_LOCK_TIMEOUT_MS</strong>: 120000 = <code>120_000</code></p>
+<p>Requesting nested or recursive locks can block the application in some circumstances.
+This default lock timeout will act as a failsafe to throw an error if a lock cannot
+be obtained.</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-77">Defined in<a href="#defined-in-77" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L56" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:56</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_powersync_db_options">DEFAULT_POWERSYNC_DB_OPTIONS<a href="#default_powersync_db_options" class="hash-link" aria-label="Direct link to DEFAULT_POWERSYNC_DB_OPTIONS" title="Direct link to DEFAULT_POWERSYNC_DB_OPTIONS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_POWERSYNC_DB_OPTIONS</strong>: <code>Object</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration-5">Type declaration<a href="#type-declaration-5" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>logger</code></td><td style="text-align:left">ILogger</td></tr><tr><td style="text-align:left"><code>retryDelay</code></td><td style="text-align:left">number</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-78">Defined in<a href="#defined-in-78" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L46" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:46</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_remote_logger">DEFAULT_REMOTE_LOGGER<a href="#default_remote_logger" class="hash-link" aria-label="Direct link to DEFAULT_REMOTE_LOGGER" title="Direct link to DEFAULT_REMOTE_LOGGER">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_REMOTE_LOGGER</strong>: ILogger</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-79">Defined in<a href="#defined-in-79" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractRemote.ts#L11" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractRemote.ts:11</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_streaming_sync_options">DEFAULT_STREAMING_SYNC_OPTIONS<a href="#default_streaming_sync_options" class="hash-link" aria-label="Direct link to DEFAULT_STREAMING_SYNC_OPTIONS" title="Direct link to DEFAULT_STREAMING_SYNC_OPTIONS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_STREAMING_SYNC_OPTIONS</strong>: <code>Object</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="type-declaration-6">Type declaration<a href="#type-declaration-6" class="hash-link" aria-label="Direct link to Type declaration" title="Direct link to Type declaration">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>logger</code></td><td style="text-align:left">ILogger</td></tr><tr><td style="text-align:left"><code>retryDelayMs</code></td><td style="text-align:left">number</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-80">Defined in<a href="#defined-in-80" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/AbstractStreamingSyncImplementation.ts#L46" target="_blank" rel="noopener noreferrer">client/sync/stream/AbstractStreamingSyncImplementation.ts:46</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_table_options">DEFAULT_TABLE_OPTIONS<a href="#default_table_options" class="hash-link" aria-label="Direct link to DEFAULT_TABLE_OPTIONS" title="Direct link to DEFAULT_TABLE_OPTIONS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_TABLE_OPTIONS</strong>: Partial&lt;TableOptions&gt;</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-81">Defined in<a href="#defined-in-81" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/db/schema/Table.ts#L12" target="_blank" rel="noopener noreferrer">db/schema/Table.ts:12</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="default_watch_throttle_ms">DEFAULT_WATCH_THROTTLE_MS<a href="#default_watch_throttle_ms" class="hash-link" aria-label="Direct link to DEFAULT_WATCH_THROTTLE_MS" title="Direct link to DEFAULT_WATCH_THROTTLE_MS">​</a></h3>
+<p>• <code>Const</code> <strong>DEFAULT_WATCH_THROTTLE_MS</strong>: 30 = <code>30</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-82">Defined in<a href="#defined-in-82" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/AbstractPowerSyncDatabase.ts#L44" target="_blank" rel="noopener noreferrer">client/AbstractPowerSyncDatabase.ts:44</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="max_op_id">MAX_OP_ID<a href="#max_op_id" class="hash-link" aria-label="Direct link to MAX_OP_ID" title="Direct link to MAX_OP_ID">​</a></h3>
+<p>• <code>Const</code> <strong>MAX_OP_ID</strong>: &quot;9223372036854775807&quot; = <code>&#x27;9223372036854775807&#x27;</code></p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-83">Defined in<a href="#defined-in-83" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/bucket/SyncDataBucket.ts#L12" target="_blank" rel="noopener noreferrer">client/sync/bucket/SyncDataBucket.ts:12</a></p>
+<h2 class="anchor anchorWithStickyNavbar_JmGV" id="functions">Functions<a href="#functions" class="hash-link" aria-label="Direct link to Functions" title="Direct link to Functions">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="iscontinuecheckpointrequest">isContinueCheckpointRequest<a href="#iscontinuecheckpointrequest" class="hash-link" aria-label="Direct link to isContinueCheckpointRequest" title="Direct link to isContinueCheckpointRequest">​</a></h3>
+<p>▸ <strong>isContinueCheckpointRequest</strong>(<code>request</code>): request is ContinueCheckpointRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>request</code></td><td style="text-align:left">SyncRequest</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns">Returns<a href="#returns" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>request is ContinueCheckpointRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-84">Defined in<a href="#defined-in-84" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L144" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:144</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="isstreamingkeepalive">isStreamingKeepalive<a href="#isstreamingkeepalive" class="hash-link" aria-label="Direct link to isStreamingKeepalive" title="Direct link to isStreamingKeepalive">​</a></h3>
+<p>▸ <strong>isStreamingKeepalive</strong>(<code>line</code>): line is StreamingSyncKeepalive</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-1">Parameters<a href="#parameters-1" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>line</code></td><td style="text-align:left">StreamingSyncLine</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-1">Returns<a href="#returns-1" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>line is StreamingSyncKeepalive</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-85">Defined in<a href="#defined-in-85" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L128" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:128</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="isstreamingsynccheckpoint">isStreamingSyncCheckpoint<a href="#isstreamingsynccheckpoint" class="hash-link" aria-label="Direct link to isStreamingSyncCheckpoint" title="Direct link to isStreamingSyncCheckpoint">​</a></h3>
+<p>▸ <strong>isStreamingSyncCheckpoint</strong>(<code>line</code>): line is StreamingSyncCheckpoint</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-2">Parameters<a href="#parameters-2" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>line</code></td><td style="text-align:left">StreamingSyncLine</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-2">Returns<a href="#returns-2" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>line is StreamingSyncCheckpoint</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-86">Defined in<a href="#defined-in-86" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L132" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:132</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="isstreamingsynccheckpointcomplete">isStreamingSyncCheckpointComplete<a href="#isstreamingsynccheckpointcomplete" class="hash-link" aria-label="Direct link to isStreamingSyncCheckpointComplete" title="Direct link to isStreamingSyncCheckpointComplete">​</a></h3>
+<p>▸ <strong>isStreamingSyncCheckpointComplete</strong>(<code>line</code>): line is StreamingSyncCheckpointComplete</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-3">Parameters<a href="#parameters-3" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>line</code></td><td style="text-align:left">StreamingSyncLine</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-3">Returns<a href="#returns-3" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>line is StreamingSyncCheckpointComplete</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-87">Defined in<a href="#defined-in-87" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L136" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:136</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="isstreamingsynccheckpointdiff">isStreamingSyncCheckpointDiff<a href="#isstreamingsynccheckpointdiff" class="hash-link" aria-label="Direct link to isStreamingSyncCheckpointDiff" title="Direct link to isStreamingSyncCheckpointDiff">​</a></h3>
+<p>▸ <strong>isStreamingSyncCheckpointDiff</strong>(<code>line</code>): line is StreamingSyncCheckpointDiff</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-4">Parameters<a href="#parameters-4" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>line</code></td><td style="text-align:left">StreamingSyncLine</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-4">Returns<a href="#returns-4" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>line is StreamingSyncCheckpointDiff</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-88">Defined in<a href="#defined-in-88" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L140" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:140</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="isstreamingsyncdata">isStreamingSyncData<a href="#isstreamingsyncdata" class="hash-link" aria-label="Direct link to isStreamingSyncData" title="Direct link to isStreamingSyncData">​</a></h3>
+<p>▸ <strong>isStreamingSyncData</strong>(<code>line</code>): line is StreamingSyncDataJSON</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-5">Parameters<a href="#parameters-5" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>line</code></td><td style="text-align:left">StreamingSyncLine</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-5">Returns<a href="#returns-5" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>line is StreamingSyncDataJSON</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-89">Defined in<a href="#defined-in-89" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L124" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:124</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="issyncnewcheckpointrequest">isSyncNewCheckpointRequest<a href="#issyncnewcheckpointrequest" class="hash-link" aria-label="Direct link to isSyncNewCheckpointRequest" title="Direct link to isSyncNewCheckpointRequest">​</a></h3>
+<p>▸ <strong>isSyncNewCheckpointRequest</strong>(<code>request</code>): request is SyncNewCheckpointRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-6">Parameters<a href="#parameters-6" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>request</code></td><td style="text-align:left">SyncRequest</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-6">Returns<a href="#returns-6" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>request is SyncNewCheckpointRequest</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-90">Defined in<a href="#defined-in-90" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/client/sync/stream/streaming-sync-types.ts#L151" target="_blank" rel="noopener noreferrer">client/sync/stream/streaming-sync-types.ts:151</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="quotejsonpath">quoteJsonPath<a href="#quotejsonpath" class="hash-link" aria-label="Direct link to quoteJsonPath" title="Direct link to quoteJsonPath">​</a></h3>
+<p>▸ <strong>quoteJsonPath</strong>(<code>path</code>): string</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-7">Parameters<a href="#parameters-7" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>path</code></td><td style="text-align:left">string</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-7">Returns<a href="#returns-7" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>string</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-91">Defined in<a href="#defined-in-91" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/utils/strings.ts#L5" target="_blank" rel="noopener noreferrer">utils/strings.ts:5</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_JmGV" id="quotestring">quoteString<a href="#quotestring" class="hash-link" aria-label="Direct link to quoteString" title="Direct link to quoteString">​</a></h3>
+<p>▸ <strong>quoteString</strong>(<code>s</code>): string</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="parameters-8">Parameters<a href="#parameters-8" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Type</th></tr></thead><tbody><tr><td style="text-align:left"><code>s</code></td><td style="text-align:left">string</td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="returns-8">Returns<a href="#returns-8" class="hash-link" aria-label="Direct link to Returns" title="Direct link to Returns">​</a></h4>
+<p>string</p>
+<h4 class="anchor anchorWithStickyNavbar_JmGV" id="defined-in-92">Defined in<a href="#defined-in-92" class="hash-link" aria-label="Direct link to Defined in" title="Direct link to Defined in">​</a></h4>
+<p><a href="https://github.com/powersync-ja/powersync-react-native-sdk/blob/2b82227/packages/powersync-sdk-common/src/utils/strings.ts#L1" target="_blank" rel="noopener noreferrer">utils/strings.ts:1</a></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/powersync-react-native-sdk/common-sdk"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Readme</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_XG6w thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#enumerations" class="table-of-contents__link toc-highlight">Enumerations</a><ul><li><a href="#columntype" class="table-of-contents__link toc-highlight">ColumnType</a></li><li><a href="#locktype" class="table-of-contents__link toc-highlight">LockType</a></li><li><a href="#optypeenum" class="table-of-contents__link toc-highlight">OpTypeEnum</a></li><li><a href="#rowupdatetype" class="table-of-contents__link toc-highlight">RowUpdateType</a></li><li><a href="#updatetype" class="table-of-contents__link toc-highlight">UpdateType</a></li></ul></li><li><a href="#classes" class="table-of-contents__link toc-highlight">Classes</a><ul><li><a href="#abstractpowersyncdatabase" class="table-of-contents__link toc-highlight">AbstractPowerSyncDatabase</a></li><li><a href="#abstractpowersyncdatabaseopenfactory" class="table-of-contents__link toc-highlight">AbstractPowerSyncDatabaseOpenFactory</a></li><li><a href="#abstractremote" class="table-of-contents__link toc-highlight">AbstractRemote</a></li><li><a href="#abstractstreamingsyncimplementation" class="table-of-contents__link toc-highlight">AbstractStreamingSyncImplementation</a></li><li><a href="#baseobserver" class="table-of-contents__link toc-highlight">BaseObserver</a></li><li><a href="#column" class="table-of-contents__link toc-highlight">Column</a></li><li><a href="#crudbatch" class="table-of-contents__link toc-highlight">CrudBatch</a></li><li><a href="#crudentry" class="table-of-contents__link toc-highlight">CrudEntry</a></li><li><a href="#crudtransaction" class="table-of-contents__link toc-highlight">CrudTransaction</a></li><li><a href="#index" class="table-of-contents__link toc-highlight">Index</a></li><li><a href="#indexedcolumn" class="table-of-contents__link toc-highlight">IndexedColumn</a></li><li><a href="#optype" class="table-of-contents__link toc-highlight">OpType</a></li><li><a href="#schema" class="table-of-contents__link toc-highlight">Schema</a></li><li><a href="#sqlitebucketstorage" class="table-of-contents__link toc-highlight">SqliteBucketStorage</a></li><li><a href="#syncdatabatch" class="table-of-contents__link toc-highlight">SyncDataBatch</a></li><li><a href="#syncdatabucket" class="table-of-contents__link toc-highlight">SyncDataBucket</a></li><li><a href="#syncstatus" class="table-of-contents__link toc-highlight">SyncStatus</a></li><li><a href="#table" class="table-of-contents__link toc-highlight">Table</a></li><li><a href="#uploadqueuestats" class="table-of-contents__link toc-highlight">UploadQueueStats</a></li></ul></li><li><a href="#interfaces" class="table-of-contents__link toc-highlight">Interfaces</a><ul><li><a href="#abstractstreamingsyncimplementationoptions" class="table-of-contents__link toc-highlight">AbstractStreamingSyncImplementationOptions</a></li><li><a href="#baseobserverinterface" class="table-of-contents__link toc-highlight">BaseObserverInterface</a></li><li><a href="#bucketchecksum" class="table-of-contents__link toc-highlight">BucketChecksum</a></li><li><a href="#bucketrequest" class="table-of-contents__link toc-highlight">BucketRequest</a></li><li><a href="#bucketstate" class="table-of-contents__link toc-highlight">BucketState</a></li><li><a href="#bucketstorageadapter" class="table-of-contents__link toc-highlight">BucketStorageAdapter</a></li><li><a href="#checkpoint" class="table-of-contents__link toc-highlight">Checkpoint</a></li><li><a href="#checksumcache" class="table-of-contents__link toc-highlight">ChecksumCache</a></li><li><a href="#columnoptions" class="table-of-contents__link toc-highlight">ColumnOptions</a></li><li><a href="#continuecheckpointrequest" class="table-of-contents__link toc-highlight">ContinueCheckpointRequest</a></li><li><a href="#crudrequest" class="table-of-contents__link toc-highlight">CrudRequest</a></li><li><a href="#crudresponse" class="table-of-contents__link toc-highlight">CrudResponse</a></li><li><a href="#dbadapter" class="table-of-contents__link toc-highlight">DBAdapter</a></li><li><a href="#dbadapterlistener" class="table-of-contents__link toc-highlight">DBAdapterListener</a></li><li><a href="#dbgetutils" class="table-of-contents__link toc-highlight">DBGetUtils</a></li><li><a href="#dblockoptions" class="table-of-contents__link toc-highlight">DBLockOptions</a></li><li><a href="#indexcolumnoptions" class="table-of-contents__link toc-highlight">IndexColumnOptions</a></li><li><a href="#indexoptions" class="table-of-contents__link toc-highlight">IndexOptions</a></li><li><a href="#lockcontext" class="table-of-contents__link toc-highlight">LockContext</a></li><li><a href="#lockoptions" class="table-of-contents__link toc-highlight">LockOptions</a></li><li><a href="#powersyncbackendconnector" class="table-of-contents__link toc-highlight">PowerSyncBackendConnector</a></li><li><a href="#powersynccredentials" class="table-of-contents__link toc-highlight">PowerSyncCredentials</a></li><li><a href="#powersyncdblistener" class="table-of-contents__link toc-highlight">PowerSyncDBListener</a></li><li><a href="#powersyncdatabaseoptions" class="table-of-contents__link toc-highlight">PowerSyncDatabaseOptions</a></li><li><a href="#powersyncopenfactoryoptions" class="table-of-contents__link toc-highlight">PowerSyncOpenFactoryOptions</a></li><li><a href="#queryresult" class="table-of-contents__link toc-highlight">QueryResult</a></li><li><a href="#sqlwatchoptions" class="table-of-contents__link toc-highlight">SQLWatchOptions</a></li><li><a href="#streamingsynccheckpoint" class="table-of-contents__link toc-highlight">StreamingSyncCheckpoint</a></li><li><a href="#streamingsynccheckpointcomplete" class="table-of-contents__link toc-highlight">StreamingSyncCheckpointComplete</a></li><li><a href="#streamingsynccheckpointdiff" class="table-of-contents__link toc-highlight">StreamingSyncCheckpointDiff</a></li><li><a href="#streamingsyncdatajson" class="table-of-contents__link toc-highlight">StreamingSyncDataJSON</a></li><li><a href="#streamingsyncimplementationlistener" class="table-of-contents__link toc-highlight">StreamingSyncImplementationListener</a></li><li><a href="#streamingsynckeepalive" class="table-of-contents__link toc-highlight">StreamingSyncKeepalive</a></li><li><a href="#streamingsyncrequest" class="table-of-contents__link toc-highlight">StreamingSyncRequest</a></li><li><a href="#synclocaldatabaseresult" class="table-of-contents__link toc-highlight">SyncLocalDatabaseResult</a></li><li><a href="#syncnewcheckpointrequest" class="table-of-contents__link toc-highlight">SyncNewCheckpointRequest</a></li><li><a href="#syncresponse" class="table-of-contents__link toc-highlight">SyncResponse</a></li><li><a href="#tableoptions" class="table-of-contents__link toc-highlight">TableOptions</a></li><li><a href="#transaction" class="table-of-contents__link toc-highlight">Transaction</a></li><li><a href="#updatenotification" class="table-of-contents__link toc-highlight">UpdateNotification</a></li><li><a href="#watchonchangeevent" class="table-of-contents__link toc-highlight">WatchOnChangeEvent</a></li></ul></li><li><a href="#type-aliases" class="table-of-contents__link toc-highlight">Type Aliases</a><ul><li><a href="#baselistener" class="table-of-contents__link toc-highlight">BaseListener</a></li><li><a href="#crudentrydatajson" class="table-of-contents__link toc-highlight">CrudEntryDataJSON</a></li><li><a href="#crudentryjson" class="table-of-contents__link toc-highlight">CrudEntryJSON</a></li><li><a href="#crudentryoutputjson" class="table-of-contents__link toc-highlight">CrudEntryOutputJSON</a></li><li><a href="#opid" class="table-of-contents__link toc-highlight">OpId</a></li><li><a href="#optypejson" class="table-of-contents__link toc-highlight">OpTypeJSON</a></li><li><a href="#remoteconnector" class="table-of-contents__link toc-highlight">RemoteConnector</a></li><li><a href="#streamingsyncline" class="table-of-contents__link toc-highlight">StreamingSyncLine</a></li><li><a href="#syncdatabucketjson" class="table-of-contents__link toc-highlight">SyncDataBucketJSON</a></li><li><a href="#syncrequest" class="table-of-contents__link toc-highlight">SyncRequest</a></li></ul></li><li><a href="#variables" class="table-of-contents__link toc-highlight">Variables</a><ul><li><a href="#default_index_column_options" class="table-of-contents__link toc-highlight">DEFAULT_INDEX_COLUMN_OPTIONS</a></li><li><a href="#default_index_options" class="table-of-contents__link toc-highlight">DEFAULT_INDEX_OPTIONS</a></li><li><a href="#default_lock_timeout_ms" class="table-of-contents__link toc-highlight">DEFAULT_LOCK_TIMEOUT_MS</a></li><li><a href="#default_powersync_db_options" class="table-of-contents__link toc-highlight">DEFAULT_POWERSYNC_DB_OPTIONS</a></li><li><a href="#default_remote_logger" class="table-of-contents__link toc-highlight">DEFAULT_REMOTE_LOGGER</a></li><li><a href="#default_streaming_sync_options" class="table-of-contents__link toc-highlight">DEFAULT_STREAMING_SYNC_OPTIONS</a></li><li><a href="#default_table_options" class="table-of-contents__link toc-highlight">DEFAULT_TABLE_OPTIONS</a></li><li><a href="#default_watch_throttle_ms" class="table-of-contents__link toc-highlight">DEFAULT_WATCH_THROTTLE_MS</a></li><li><a href="#max_op_id" class="table-of-contents__link toc-highlight">MAX_OP_ID</a></li></ul></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#iscontinuecheckpointrequest" class="table-of-contents__link toc-highlight">isContinueCheckpointRequest</a></li><li><a href="#isstreamingkeepalive" class="table-of-contents__link toc-highlight">isStreamingKeepalive</a></li><li><a href="#isstreamingsynccheckpoint" class="table-of-contents__link toc-highlight">isStreamingSyncCheckpoint</a></li><li><a href="#isstreamingsynccheckpointcomplete" class="table-of-contents__link toc-highlight">isStreamingSyncCheckpointComplete</a></li><li><a href="#isstreamingsynccheckpointdiff" class="table-of-contents__link toc-highlight">isStreamingSyncCheckpointDiff</a></li><li><a href="#isstreamingsyncdata" class="table-of-contents__link toc-highlight">isStreamingSyncData</a></li><li><a href="#issyncnewcheckpointrequest" class="table-of-contents__link toc-highlight">isSyncNewCheckpointRequest</a></li><li><a href="#quotejsonpath" class="table-of-contents__link toc-highlight">quoteJsonPath</a></li><li><a href="#quotestring" class="table-of-contents__link toc-highlight">quoteString</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/powersync_" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/showcase/journeyapps-powersync/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/@powersync_" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.powersync.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Website<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/powersync-ja/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPrP"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2023 Journey Mobile, Inc.
+
+
+
+
+
+      </div></div></div></footer></div>
+</body>
+</html>
